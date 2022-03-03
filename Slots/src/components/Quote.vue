@@ -6,7 +6,7 @@
         </div>
         <hr>
         <div>
-            <slot></slot>
+            <slot name="content"></slot>
         </div>
     </div>
 </template>

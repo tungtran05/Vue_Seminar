@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Filters & Mixins</h1>
+        <h1>Mixins (in List.vue)</h1>
         <input v-model="filterText">
         <ul>
             <li v-for="fruit in filteredFruits">{{ fruit }}</li>
